@@ -14,11 +14,11 @@ public class GraphBuilderApplication {
         SpringApplication.run(GraphBuilderApplication.class, args);
     }
 
-    /*@Bean
+    @Bean
     CommandLineRunner start(GraphController graphController) {
         return args -> {
             String root = graphController.transfert("debit", 1L, 2L);
             System.out.println("==== JSON ROOT => " + root);
         };
-    }*/
+    }
 }
